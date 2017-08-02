@@ -64,8 +64,6 @@ public class InverseBWT {
     String inverseBWT(String bwt) {
         StringBuilder result = new StringBuilder();
         // write your code here
-        char[] tempArray = bwt.toCharArray();
-        Arrays.sort(tempArray);
 
         Node[] bwtNode = new Node[bwt.length()];
         Node[] sortedNode = new Node[bwt.length()];
